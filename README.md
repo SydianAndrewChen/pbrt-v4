@@ -1,3 +1,37 @@
+### DeepFacetX (pbrt version)
+
+
+#### How to Run
+
+- Install Optix (Tested on 7.7) and Cuda (Tested on 11.8)
+- Please customize your installation path of Optix and Cuda in `build.bat` and then run
+```
+.\build.bat
+.\run.bat
+```
+
+- A scene `plume.pbrt` is used for test.
+  - Possible result:
+  ![alt text](./images/test-scene.png)
+
+
+#### Links
+
+- [pbrt file format](https://pbrt.org/fileformat-v4)
+- [pbrt-v4 scenes repo](https://github.com/mmp/pbrt-v4-scenes)
+
+
+
+
+
+
+
+---
+
+Original README are kept here for record.
+
+---
+
 pbrt, Version 4 (Early Release)
 ===============================
 
